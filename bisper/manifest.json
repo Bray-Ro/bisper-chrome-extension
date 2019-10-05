@@ -1,0 +1,16 @@
+{
+    "optional_permissions": [ "tabs", "chrome://extensions/" ],
+    "name": "bisper extension",
+    "version": "0.4",
+    "permissions": ["declarativeContent", "storage"],
+    "description": "the new official bisper chrome extension",
+    "manifest_version": 2,
+    
+    "browser_action": {
+        "title": "Your Browser Action Name"
+   },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      }
+}
